@@ -13,6 +13,7 @@ public class MenusController {
 	public String save(HttpServletRequest reuqest){
 		System.out.println("--------save------");
 		reuqest.setAttribute("name", "zhangsan");
+		reuqest.setAttribute("name", "zhangsan");
 		return "index.jsp";
 	}
 	@RequestMapping("save1")
